@@ -38,7 +38,7 @@
         }
 
         .logo {
-            font-size: 24px;
+            font-size: clamp(16px, 4vw, 24px);
             font-weight: bold;
             color: #D4AF37;
         }
@@ -432,6 +432,19 @@
     height: 22px;
 }
 
+.menu-images img {
+    width: 49%;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .menu-images img {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px; /* optional spacing between images */
+    }
+}
+
 @keyframes scrollReviews {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
@@ -514,13 +527,12 @@
                 grid-template-columns: 1fr;
             }
         }
-
-    </style>
+</style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Malgudi Spice | ಮಾಲ್ಗುಡಿ ಸ್ಪೈಸ್</div>
+            <div class="logo">Malgudi Spice  ಮಾಲ್ಗುಡಿ ಸ್ಪೈಸ್</div>
             <ul class="nav-links">
                 <li><a onclick="smoothScrollTo('home')">Home</a></li>
                 <li><a onclick="smoothScrollTo('about')">About</a></li>
@@ -641,14 +653,15 @@
         </div>
 
         <div id="daily" class="tab-content">
-            <div>
-                <img src="./assets/weekly-menu.png" style="width: 100%;">
-            </div>
             <div class="days-menu">
                 <div class="day-card">
                     <h3>Interested in our daily meals? We serve Monday to Friday and our menu changes weekly.</h3>
                     <h4>Message us on <a href="https://chat.whatsapp.com/L5imRhPGmVWBeVL1my0Ntx" target="_blank" style="color:#d4a94f; text-decoration:underline;">WhatsApp<img src="https://img.icons8.com/?size=20&id=16713&format=png&color=000000"></a> and we’ll share the full menu, availability, and pickup/delivery details.</h4>
                 </div>
+            </div>
+            <div class="menu-images">
+                <img src="assets/menu1.png">
+                <img src="assets/menu2.png">
             </div>
         </div>
 
