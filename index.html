@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +26,7 @@
             width: 100%;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
 
         nav {
@@ -108,7 +109,7 @@
             background: white;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-top: 4px solid #D4AF37;
         }
 
@@ -138,7 +139,7 @@
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             line-height: 1.8;
             font-size: 18px;
             color: #555;
@@ -203,7 +204,7 @@
             background: white;
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             cursor: pointer;
             transition: transform 0.3s;
         }
@@ -263,7 +264,7 @@
             background: white;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             border-left: 5px solid #D4AF37;
         }
 
@@ -291,7 +292,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.8);
+            background: rgba(0, 0, 0, 0.8);
             z-index: 2000;
             justify-content: center;
             align-items: center;
@@ -337,7 +338,7 @@
             background: white;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
 
@@ -385,70 +386,81 @@
                 font-size: 14px;
             }
         }
+
         .review-section {
-    margin-top: 60px;
-    text-align: center;
-    display: none;
-}
+            margin-top: 60px;
+            text-align: center;
+            display: none;
+        }
 
-.review-title {
-    font-size: 32px;
-    color: #6B2C2C;
-    margin-bottom: 20px;
-}
+        .review-title {
+            font-size: 32px;
+            color: #6B2C2C;
+            margin-bottom: 20px;
+        }
 
-.review-strip {
-    display: flex;
-    gap: 30px;
-    white-space: nowrap;
-    overflow: hidden;
-    padding: 20px 0;
-    animation: scrollReviews 25s linear infinite;
-}
+        .review-strip {
+            display: flex;
+            gap: 30px;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 20px 0;
+            animation: scrollReviews 25s linear infinite;
+        }
 
-.review-card {
-    display: inline-block;
-    background: white;
-    border-radius: 10px;
-    padding: 20px;
-    min-width: 300px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    border-left: 4px solid #D4AF37;
-    font-size: 16px;
-    color: #555;
-}
+        .review-card {
+            display: inline-block;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            min-width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #D4AF37;
+            font-size: 16px;
+            color: #555;
+        }
 
-.review-user {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 12px;
-    font-weight: bold;
-    color: #6B2C2C;
-}
+        .review-user {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 12px;
+            font-weight: bold;
+            color: #6B2C2C;
+        }
 
-.review-logo {
-    width: 22px;
-    height: 22px;
-}
+        .review-logo {
+            width: 22px;
+            height: 22px;
+        }
 
-.menu-images img {
-    width: 49%;
-    display: inline-block;
-}
+        .menu-images img {
+            width: 49%;
+            display: inline-block;
+        }
 
-@media (max-width: 768px) {
-    .menu-images img {
-        width: 100%;
-        display: block;
-        margin-bottom: 10px; /* optional spacing between images */
-    }
-}
+        img.full {
+            width: 100%
+        }
 
-@keyframes scrollReviews {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-}
+        @media (max-width: 768px) {
+            .menu-images img {
+                width: 100%;
+                display: block;
+                margin-bottom: 10px;
+                /* optional spacing between images */
+            }
+        }
+
+        @keyframes scrollReviews {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
 
         .menu-row {
             display: grid;
@@ -461,7 +473,7 @@
             background: white;
             border-radius: 10px;
             padding: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .bottom-row {
@@ -475,7 +487,7 @@
             background: white;
             border-radius: 10px;
             padding: 20px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         .section-header {
@@ -515,6 +527,7 @@
         }
 
         @media (max-width: 1024px) {
+
             .menu-row,
             .bottom-row {
                 grid-template-columns: repeat(2, 1fr);
@@ -522,17 +535,19 @@
         }
 
         @media (max-width: 768px) {
+
             .menu-row,
             .bottom-row {
                 grid-template-columns: 1fr;
             }
         }
-</style>
+    </style>
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="logo">Malgudi Spice  ಮಾಲ್ಗುಡಿ ಸ್ಪೈಸ್</div>
+            <div class="logo">Malgudi Spice ಮಾಲ್ಗುಡಿ ಸ್ಪೈಸ್</div>
             <ul class="nav-links">
                 <li><a onclick="smoothScrollTo('home')">Home</a></li>
                 <li><a onclick="smoothScrollTo('about')">About</a></li>
@@ -570,37 +585,41 @@
 
             <div class="review-strip">
                 <div class="review-card">
-                    ⭐⭐⭐⭐⭐  
+                    ⭐⭐⭐⭐⭐
                     <p>"Amazing Karnataka flavors! Feels like home."</p>
                     <div class="review-user">
-                        <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" class="review-logo">
+                        <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000"
+                            class="review-logo">
                         <span>- Ramesh</span>
                     </div>
                 </div>
 
                 <div class="review-card">
-                    ⭐⭐⭐⭐⭐  
+                    ⭐⭐⭐⭐⭐
                     <p>"Best bisibele bath in the Bay Area!"</p>
                     <div class="review-user">
-                        <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" class="review-logo">
+                        <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"
+                            class="review-logo">
                         <span>- Priya</span>
                     </div>
                 </div>
 
                 <div class="review-card">
-                    ⭐⭐⭐⭐⭐  
+                    ⭐⭐⭐⭐⭐
                     <p>"Fresh, organic and authentic. Must try."</p>
                     <div class="review-user">
-                        <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" class="review-logo">
+                        <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"
+                            class="review-logo">
                         <span>- Naveen</span>
                     </div>
                 </div>
 
                 <div class="review-card">
-                    ⭐⭐⭐⭐⭐  
+                    ⭐⭐⭐⭐⭐
                     <p>"The spice levels and flavors are perfect!"</p>
                     <div class="review-user">
-                        <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" class="review-logo">
+                        <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"
+                            class="review-logo">
                         <span>- Sneha</span>
                     </div>
                 </div>
@@ -612,22 +631,31 @@
     <section id="about">
         <h2>About Malgudi Spice</h2>
         <div class="about-content">
-            <p>Welcome to Malgudi Spice, where we bring the authentic flavors of Karnataka and South India to your table. Our restaurant is named after the fictional town created by R.K. Narayan, embodying the warmth, simplicity, and rich cultural heritage of South India.</p>
+            <p>Welcome to Malgudi Spice, where we bring the authentic flavors of Karnataka and South India to your
+                table. Our restaurant is named after the fictional town created by R.K. Narayan, embodying the warmth,
+                simplicity, and rich cultural heritage of South India.</p>
             <br>
-            <p>At Malgudi Spice, we specialize in traditional Karnataka and South Indian cuisine, prepared with love using time-honored recipes. Every dish is crafted from organic ingredients, made fresh daily without any preservatives or artificial additives. We believe in the purity of homemade cooking that brings comfort and nostalgia with every bite.</p>
+            <p>At Malgudi Spice, we specialize in traditional Karnataka and South Indian cuisine, prepared with love
+                using time-honored recipes. Every dish is crafted from organic ingredients, made fresh daily without any
+                preservatives or artificial additives. We believe in the purity of homemade cooking that brings comfort
+                and nostalgia with every bite.</p>
             <br>
-            <p>From crispy dosas to aromatic bisibele bath, from tangy rasam to sweet holige, our menu celebrates the diverse culinary traditions of Karnataka. Each meal is a journey through the flavors that truly feel like home.</p>
+            <p>From crispy dosas to aromatic bisibele bath, from tangy rasam to sweet holige, our menu celebrates the
+                diverse culinary traditions of Karnataka. Each meal is a journey through the flavors that truly feel
+                like home.</p>
         </div>
 
         <h2 style="margin-top: 20px;">Catering for Your Special Events</h2>
         <div class="about-content">
-            <p>Make your special occasions unforgettable with authentic Karnataka cuisine! We provide professional catering services for all types of events in the San Jose area and beyond.</p>
+            <p>Make your special occasions unforgettable with authentic Karnataka cuisine! We provide professional
+                catering services for all types of events in the San Jose area and beyond.</p>
         </div>
-        
+
         <div class="features" style="margin-top: 20px;">
             <div class="feature-card">
                 <h3>🎉 Weddings</h3>
-                <p>Traditional South Indian wedding feasts with authentic Karnataka flavors to make your big day memorable.</p>
+                <p>Traditional South Indian wedding feasts with authentic Karnataka flavors to make your big day
+                    memorable.</p>
             </div>
             <div class="feature-card">
                 <h3 style="font-size: 20px;">🏢 Corporate Events</h3>
@@ -639,14 +667,15 @@
             </div>
             <div class="feature-card">
                 <h3>🎭 Cultural Events</h3>
-                <p>Festival celebrations, community gatherings, and cultural programs with traditional Karnataka cuisine.</p>
+                <p>Festival celebrations, community gatherings, and cultural programs with traditional Karnataka
+                    cuisine.</p>
             </div>
         </div>
     </section>
 
     <section id="menu">
         <h2>Our Menu</h2>
-        
+
         <div class="menu-tabs">
             <button class="tab-btn active" onclick="showTab('catering')">Catering Orders</button>
             <button class="tab-btn" onclick="showTab('daily')">Weekly Menu</button>
@@ -656,193 +685,543 @@
             <div class="days-menu">
                 <div class="day-card">
                     <h3>Interested in our daily meals? We serve Monday to Friday and our menu changes weekly.</h3>
-                    <h4>Message us on <a href="https://chat.whatsapp.com/L5imRhPGmVWBeVL1my0Ntx" target="_blank" style="color:#d4a94f; text-decoration:underline;">WhatsApp<img src="https://img.icons8.com/?size=20&id=16713&format=png&color=000000"></a> and we’ll share the full menu, availability, and pickup/delivery details.</h4>
+                    <h4>Message us on <a href="https://chat.whatsapp.com/L5imRhPGmVWBeVL1my0Ntx" target="_blank"
+                            style="color:#d4a94f; text-decoration:underline;">WhatsApp<img
+                                src="https://img.icons8.com/?size=20&id=16713&format=png&color=000000"></a> and we’ll
+                        share the full menu, availability, and pickup/delivery details.</h4>
                 </div>
             </div>
             <div class="menu-images">
-                <img src="assets/menu1.png">
-                <img src="assets/menu2.png">
+                <img class="full" src="assets/menu-dec-9-15.PNG">
             </div>
         </div>
 
         <div id="catering" class="tab-content active">
             <div class="menu-row">
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Rice Items</h2></div>
-                <div class="menu-item"><div class="item-name">Tomato Bath</div><div class="item-description">Karnataka-style rice with tangy tomatoes.</div></div>
-                <div class="menu-item"><div class="item-name">Vangi Bath</div><div class="item-description">Brinjal-spiced rice with masala.</div></div>
-                <div class="menu-item"><div class="item-name">Bisi Bele Bath</div><div class="item-description">Hot lentil-rice with veggies.</div></div>
-                <div class="menu-item"><div class="item-name">Veg Pulav</div><div class="item-description">Fragrant basmati with vegetables.</div></div>
-                <div class="menu-item"><div class="item-name">Lemon Rice</div><div class="item-description">Zesty rice with mustard.</div></div>
-                <div class="menu-item"><div class="item-name">Shavige Bath</div><div class="item-description">Vermicelli with vegetables.</div></div>
-                <div class="menu-item"><div class="item-name">Curd Rice</div><div class="item-description">Creamy curd-mixed rice.</div></div>
-                <div class="menu-item"><div class="item-name">Puliogre</div><div class="item-description">Tangy tamarind rice.</div></div>
-                <div class="menu-item"><div class="item-name">Tomato Chitranna</div><div class="item-description">Tangy tomato rice.</div></div>
-                <div class="menu-item"><div class="item-name">Bellulli Chitranna</div><div class="item-description">Garlic rice with peanuts.</div></div>
-                <div class="menu-item"><div class="item-name">Hunasehannina Chitranna</div><div class="item-description">Green mango rice.</div></div>
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Rice Items</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Tomato Bath</div>
+                        <div class="item-description">Karnataka-style rice with tangy tomatoes.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Vangi Bath</div>
+                        <div class="item-description">Brinjal-spiced rice with masala.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bisi Bele Bath</div>
+                        <div class="item-description">Hot lentil-rice with veggies.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Veg Pulav</div>
+                        <div class="item-description">Fragrant basmati with vegetables.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Lemon Rice</div>
+                        <div class="item-description">Zesty rice with mustard.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Shavige Bath</div>
+                        <div class="item-description">Vermicelli with vegetables.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Curd Rice</div>
+                        <div class="item-description">Creamy curd-mixed rice.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Puliogre</div>
+                        <div class="item-description">Tangy tamarind rice.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Tomato Chitranna</div>
+                        <div class="item-description">Tangy tomato rice.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bellulli Chitranna</div>
+                        <div class="item-description">Garlic rice with peanuts.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Hunasehannina Chitranna</div>
+                        <div class="item-description">Green mango rice.</div>
+                    </div>
+                </div>
+
+
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Starters</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Paneer Fry</div>
+                        <div class="item-description">Golden-fried paneer.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Mushroom Pepper Fry</div>
+                        <div class="item-description">Peppery mushrooms.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Tofu Burji</div>
+                        <div class="item-description">Scrambled tofu.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pepper Chicken</div>
+                        <div class="item-description">Fiery chicken starter.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chicken 65</div>
+                        <div class="item-description">Crispy fried chicken.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Fish Tawa Masala</div>
+                        <div class="item-description">Pan-seared fish.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Butter Garlic Shrimp</div>
+                        <div class="item-description">Shrimp in butter.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Shrimp Masala Fry</div>
+                        <div class="item-description">Mangalorean shrimp.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Masala Papad</div>
+                        <div class="item-description">Crispy papad with toppings.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Egg Masala</div>
+                        <div class="item-description">Spiced eggs in gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Egg Fry</div>
+                        <div class="item-description">Pan-fried eggs.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Onion Pakora</div>
+                        <div class="item-description">Crispy onion fritters.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chilli Bajji</div>
+                        <div class="item-description">Fried green chillies.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Capsicum Bajji</div>
+                        <div class="item-description">Bell pepper fritters.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Ambode</div>
+                        <div class="item-description">Chana dal fritters.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Uddina Vade</div>
+                        <div class="item-description">Fluffy urad dal vadas.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Veg Puff</div>
+                        <div class="item-description">Flaky vegetable puff.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Egg Puff</div>
+                        <div class="item-description">Spiced egg puff.</div>
+                    </div>
+                </div>
+
+
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Curries</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Fish Saru</div>
+                        <div class="item-description">Coastal fish curry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chicken Saru</div>
+                        <div class="item-description">Home-style chicken curry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Matar Paneer</div>
+                        <div class="item-description">Paneer in peas gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chickpea Curry</div>
+                        <div class="item-description">Chickpeas in tomato gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Andhra Style Pappu</div>
+                        <div class="item-description">Tangy dal with tamarind.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pindi Chole</div>
+                        <div class="item-description">North Indian chickpea curry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Nuggekai Sambar</div>
+                        <div class="item-description">Drumstick sambar.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Spinach Dal</div>
+                        <div class="item-description">Lentils with spinach.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Dal Makhani</div>
+                        <div class="item-description">Creamy black lentils.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Paneer Curry</div>
+                        <div class="item-description">Paneer in curry sauce.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Butter Chicken</div>
+                        <div class="item-description">Chicken in tomato gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Paneer Butter Masala</div>
+                        <div class="item-description">Paneer in cashew gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Egg Curry</div>
+                        <div class="item-description">Eggs in masala.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Avarekalu Huli</div>
+                        <div class="item-description">Field beans curry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Thogari Kalu Huli</div>
+                        <div class="item-description">Pigeon peas curry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Avarekalu Masala Saru</div>
+                        <div class="item-description">Field beans masala.</div>
+                    </div>
+                </div>
             </div>
 
 
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Starters</h2></div>
-                <div class="menu-item"><div class="item-name">Paneer Fry</div><div class="item-description">Golden-fried paneer.</div></div>
-                <div class="menu-item"><div class="item-name">Mushroom Pepper Fry</div><div class="item-description">Peppery mushrooms.</div></div>
-                <div class="menu-item"><div class="item-name">Tofu Burji</div><div class="item-description">Scrambled tofu.</div></div>
-                <div class="menu-item"><div class="item-name">Pepper Chicken</div><div class="item-description">Fiery chicken starter.</div></div>
-                <div class="menu-item"><div class="item-name">Chicken 65</div><div class="item-description">Crispy fried chicken.</div></div>
-                <div class="menu-item"><div class="item-name">Fish Tawa Masala</div><div class="item-description">Pan-seared fish.</div></div>
-                <div class="menu-item"><div class="item-name">Butter Garlic Shrimp</div><div class="item-description">Shrimp in butter.</div></div>
-                <div class="menu-item"><div class="item-name">Shrimp Masala Fry</div><div class="item-description">Mangalorean shrimp.</div></div>
-                <div class="menu-item"><div class="item-name">Masala Papad</div><div class="item-description">Crispy papad with toppings.</div></div>
-                <div class="menu-item"><div class="item-name">Egg Masala</div><div class="item-description">Spiced eggs in gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Egg Fry</div><div class="item-description">Pan-fried eggs.</div></div>
-                <div class="menu-item"><div class="item-name">Onion Pakora</div><div class="item-description">Crispy onion fritters.</div></div>
-                <div class="menu-item"><div class="item-name">Chilli Bajji</div><div class="item-description">Fried green chillies.</div></div>
-                <div class="menu-item"><div class="item-name">Capsicum Bajji</div><div class="item-description">Bell pepper fritters.</div></div>
-                <div class="menu-item"><div class="item-name">Ambode</div><div class="item-description">Chana dal fritters.</div></div>
-                <div class="menu-item"><div class="item-name">Uddina Vade</div><div class="item-description">Fluffy urad dal vadas.</div></div>
-                <div class="menu-item"><div class="item-name">Veg Puff</div><div class="item-description">Flaky vegetable puff.</div></div>
-                <div class="menu-item"><div class="item-name">Egg Puff</div><div class="item-description">Spiced egg puff.</div></div>
+            <!-- Row 2 -->
+            <div class="menu-row">
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Karnataka Special</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Mudde</div>
+                        <div class="item-description">Soft ragi balls.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bassaru</div>
+                        <div class="item-description">Lentil and greens broth.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Ennegai</div>
+                        <div class="item-description">Stuffed brinjal.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Akki Rotti</div>
+                        <div class="item-description">Rice flour flatbread.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Ragi Rotti</div>
+                        <div class="item-description">Millet flatbread.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Mudde Bassaru Palya</div>
+                        <div class="item-description">Complete meal combo.</div>
+                    </div>
+                </div>
+
+
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Palya (Stir-Fry)</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Huruli Kai Palya</div>
+                        <div class="item-description">Field beans stir-fry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bende Kai Palya</div>
+                        <div class="item-description">Okra stir-fry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Thonde Kai Palya</div>
+                        <div class="item-description">Ivy gourd stir-fry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bale Kai Palya</div>
+                        <div class="item-description">Raw banana stir-fry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Heerekai Palya</div>
+                        <div class="item-description">Ridge gourd stir-fry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Hesarukalu Palya</div>
+                        <div class="item-description">Green gram stir-fry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Kadle Husli</div>
+                        <div class="item-description">Chickpea dry curry.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Kabul Kadle Husli</div>
+                        <div class="item-description">White chickpea curry.</div>
+                    </div>
+                </div>
+
+
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Rasam Varieties</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Uppu Saru</div>
+                        <div class="item-description">Spicy-salt rasam.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Tomato Rasa</div>
+                        <div class="item-description">Tomato rasam.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bele Rasa</div>
+                        <div class="item-description">Mild lentil rasam.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Jeerige Menasina Rasa</div>
+                        <div class="item-description">Pepper-cumin rasam.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Garlic Rasa</div>
+                        <div class="item-description">Garlic-infused rasam.</div>
+                    </div>
+                </div>
             </div>
 
 
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Curries</h2></div>
-                <div class="menu-item"><div class="item-name">Fish Saru</div><div class="item-description">Coastal fish curry.</div></div>
-                <div class="menu-item"><div class="item-name">Chicken Saru</div><div class="item-description">Home-style chicken curry.</div></div>
-                <div class="menu-item"><div class="item-name">Matar Paneer</div><div class="item-description">Paneer in peas gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Chickpea Curry</div><div class="item-description">Chickpeas in tomato gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Andhra Style Pappu</div><div class="item-description">Tangy dal with tamarind.</div></div>
-                <div class="menu-item"><div class="item-name">Pindi Chole</div><div class="item-description">North Indian chickpea curry.</div></div>
-                <div class="menu-item"><div class="item-name">Nuggekai Sambar</div><div class="item-description">Drumstick sambar.</div></div>
-                <div class="menu-item"><div class="item-name">Spinach Dal</div><div class="item-description">Lentils with spinach.</div></div>
-                <div class="menu-item"><div class="item-name">Dal Makhani</div><div class="item-description">Creamy black lentils.</div></div>
-                <div class="menu-item"><div class="item-name">Paneer Curry</div><div class="item-description">Paneer in curry sauce.</div></div>
-                <div class="menu-item"><div class="item-name">Butter Chicken</div><div class="item-description">Chicken in tomato gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Paneer Butter Masala</div><div class="item-description">Paneer in cashew gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Egg Curry</div><div class="item-description">Eggs in masala.</div></div>
-                <div class="menu-item"><div class="item-name">Avarekalu Huli</div><div class="item-description">Field beans curry.</div></div>
-                <div class="menu-item"><div class="item-name">Thogari Kalu Huli</div><div class="item-description">Pigeon peas curry.</div></div>
-                <div class="menu-item"><div class="item-name">Avarekalu Masala Saru</div><div class="item-description">Field beans masala.</div></div>
-            </div>
-        </div>
+            <!-- Row 3 -->
+            <div class="menu-row">
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Chaat</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bangalore Masala Puri</div>
+                        <div class="item-description">Puris with masala gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Pani Puri</div>
+                        <div class="item-description">Spicy tangy snack.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Churmuri</div>
+                        <div class="item-description">Puffed rice mix.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Sev Puri</div>
+                        <div class="item-description">Puris with chutneys.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Aloo Puri</div>
+                        <div class="item-description">Potato-stuffed puris.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Dahi Puri</div>
+                        <div class="item-description">Yogurt-filled puris.</div>
+                    </div>
+                </div>
 
 
-        <!-- Row 2 -->
-        <div class="menu-row">
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Karnataka Special</h2></div>
-                <div class="menu-item"><div class="item-name">Mudde</div><div class="item-description">Soft ragi balls.</div></div>
-                <div class="menu-item"><div class="item-name">Bassaru</div><div class="item-description">Lentil and greens broth.</div></div>
-                <div class="menu-item"><div class="item-name">Ennegai</div><div class="item-description">Stuffed brinjal.</div></div>
-                <div class="menu-item"><div class="item-name">Akki Rotti</div><div class="item-description">Rice flour flatbread.</div></div>
-                <div class="menu-item"><div class="item-name">Ragi Rotti</div><div class="item-description">Millet flatbread.</div></div>
-                <div class="menu-item"><div class="item-name">Mudde Bassaru Palya</div><div class="item-description">Complete meal combo.</div></div>
-            </div>
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Snacks</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chakli</div>
+                        <div class="item-description">Crispy spiral snack.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Kodbale</div>
+                        <div class="item-description">Ring-shaped savory.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Nippattu</div>
+                        <div class="item-description">Spicy rice crackers.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Dry Fruit Laddu</div>
+                        <div class="item-description">Sweet balls with nuts.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Rava Laddu</div>
+                        <div class="item-description">Semolina balls.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Besan Laddu</div>
+                        <div class="item-description">Gram flour balls.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Makhana</div>
+                        <div class="item-description">Roasted fox nuts.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Avalakki Chivda</div>
+                        <div class="item-description">Crunchy poha mix.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Peanut Chutney Pudi</div>
+                        <div class="item-description">Spicy peanut powder.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Curry Leaf Chutney Pudi</div>
+                        <div class="item-description">Aromatic curry leaf and spice blend.</div>
+                    </div>
+                </div>
 
 
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Palya (Stir-Fry)</h2></div>
-                <div class="menu-item"><div class="item-name">Huruli Kai Palya</div><div class="item-description">Field beans stir-fry.</div></div>
-                <div class="menu-item"><div class="item-name">Bende Kai Palya</div><div class="item-description">Okra stir-fry.</div></div>
-                <div class="menu-item"><div class="item-name">Thonde Kai Palya</div><div class="item-description">Ivy gourd stir-fry.</div></div>
-                <div class="menu-item"><div class="item-name">Bale Kai Palya</div><div class="item-description">Raw banana stir-fry.</div></div>
-                <div class="menu-item"><div class="item-name">Heerekai Palya</div><div class="item-description">Ridge gourd stir-fry.</div></div>
-                <div class="menu-item"><div class="item-name">Hesarukalu Palya</div><div class="item-description">Green gram stir-fry.</div></div>
-                <div class="menu-item"><div class="item-name">Kadle Husli</div><div class="item-description">Chickpea dry curry.</div></div>
-                <div class="menu-item"><div class="item-name">Kabul Kadle Husli</div><div class="item-description">White chickpea curry.</div></div>
-            </div>
-
-
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Rasam Varieties</h2></div>
-                <div class="menu-item"><div class="item-name">Uppu Saru</div><div class="item-description">Spicy-salt rasam.</div></div>
-                <div class="menu-item"><div class="item-name">Tomato Rasa</div><div class="item-description">Tomato rasam.</div></div>
-                <div class="menu-item"><div class="item-name">Bele Rasa</div><div class="item-description">Mild lentil rasam.</div></div>
-                <div class="menu-item"><div class="item-name">Jeerige Menasina Rasa</div><div class="item-description">Pepper-cumin rasam.</div></div>
-                <div class="menu-item"><div class="item-name">Garlic Rasa</div><div class="item-description">Garlic-infused rasam.</div></div>
-            </div>
-        </div>
-
-
-        <!-- Row 3 -->
-        <div class="menu-row">
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Chaat</h2></div>
-                <div class="menu-item"><div class="item-name">Bangalore Masala Puri</div><div class="item-description">Puris with masala gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Pani Puri</div><div class="item-description">Spicy tangy snack.</div></div>
-                <div class="menu-item"><div class="item-name">Churmuri</div><div class="item-description">Puffed rice mix.</div></div>
-                <div class="menu-item"><div class="item-name">Sev Puri</div><div class="item-description">Puris with chutneys.</div></div>
-                <div class="menu-item"><div class="item-name">Aloo Puri</div><div class="item-description">Potato-stuffed puris.</div></div>
-                <div class="menu-item"><div class="item-name">Dahi Puri</div><div class="item-description">Yogurt-filled puris.</div></div>
-            </div>
-
-
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Snacks</h2></div>
-                <div class="menu-item"><div class="item-name">Chakli</div><div class="item-description">Crispy spiral snack.</div></div>
-                <div class="menu-item"><div class="item-name">Kodbale</div><div class="item-description">Ring-shaped savory.</div></div>
-                <div class="menu-item"><div class="item-name">Nippattu</div><div class="item-description">Spicy rice crackers.</div></div>
-                <div class="menu-item"><div class="item-name">Dry Fruit Laddu</div><div class="item-description">Sweet balls with nuts.</div></div>
-                <div class="menu-item"><div class="item-name">Rava Laddu</div><div class="item-description">Semolina balls.</div></div>
-                <div class="menu-item"><div class="item-name">Besan Laddu</div><div class="item-description">Gram flour balls.</div></div>
-                <div class="menu-item"><div class="item-name">Makhana</div><div class="item-description">Roasted fox nuts.</div></div>
-                <div class="menu-item"><div class="item-name">Avalakki Chivda</div><div class="item-description">Crunchy poha mix.</div></div>
-                <div class="menu-item"><div class="item-name">Peanut Chutney Pudi</div><div class="item-description">Spicy peanut powder.</div></div>
-                <div class="menu-item"><div class="item-name">Curry Leaf Chutney Pudi</div><div class="item-description">Aromatic curry leaf and spice blend.</div></div>
-            </div>
-
-
-            <div class="menu-column">
-                <div class="section-header"><h2 class="section-title">Desserts</h2></div>
-                <div class="menu-item"><div class="item-name">Shavige Paysa</div><div class="item-description">Vermicelli pudding.</div></div>
-                <div class="menu-item"><div class="item-name">Annada Paysa</div><div class="item-description">Rice pudding.</div></div>
-                <div class="menu-item"><div class="item-name">Sabbakki Paysa</div><div class="item-description">Tapioca dessert.</div></div>
-                <div class="menu-item"><div class="item-name">Hesaru Bele Paysa</div><div class="item-description">Moong dal sweet.</div></div>
-                <div class="menu-item"><div class="item-name">Hayagreeva</div><div class="item-description">Gram dal pudding.</div></div>
-                <div class="menu-item"><div class="item-name">Gulab Jamun</div><div class="item-description">Milk dumplings.</div></div>
-                <div class="menu-item"><div class="item-name">Mango Rabdi</div><div class="item-description">Rich milk dessert.</div></div>
-                <div class="menu-item"><div class="item-name">Fruit Custard</div><div class="item-description">Creamy custard with fruits.</div></div>
-            </div>
-        </div>
-
-
-        <!-- Bottom Row -->
-        <div class="bottom-row">
-            <div class="bottom-column">
-                <div class="section-header"><h2 class="section-title">Bulk Orders</h2></div>
-                <div class="menu-item"><div class="item-name">Chicken Biryani</div><div class="item-description">Bangalore Meghana Style.</div></div>
-                <div class="menu-item"><div class="item-name">Paneer Biryani</div><div class="item-description">Biryani with paneer.</div></div>
-                <div class="menu-item"><div class="item-name">Dosa</div><div class="item-description">Crispy fermented crepes.</div></div>
-                <div class="menu-item"><div class="item-name">Idli Sambar</div><div class="item-description">Soft idlis with sambar.</div></div>
-                <div class="menu-item"><div class="item-name">Puri</div><div class="item-description">Deep-fried puris.</div></div>
-                <div class="menu-item"><div class="item-name">Set Dosa</div><div class="item-description">Thick dosas - set of two.</div></div>
-                <div class="menu-item"><div class="item-name">Veg Kurma</div><div class="item-description">Vegetables in coconut gravy.</div></div>
-                <div class="menu-item"><div class="item-name">Bele Holige</div><div class="item-description">Sweet lentil flatbread.</div></div>
-                <div class="menu-item"><div class="item-name">Kai Holige</div><div class="item-description">Jaggery coconut flatbread.</div></div>
-            </div>
-
-
-            <div class="bottom-column">
-                <div class="section-header"><h2 class="section-title">Diabetes Friendly</h2></div>
-                <div class="menu-item"><div class="item-name">Quinoa Pulav</div><div class="item-description">Nutritious quinoa with vegetables.</div></div>
-                <div class="menu-item"><div class="item-name">Quinoa Pongal</div><div class="item-description">Healthy quinoa and lentil dish.</div></div>
-                <div class="menu-item"><div class="item-name">Quinoa Bisibele Bath</div><div class="item-description">Quinoa-lentil mix with veggies.</div></div>
-                <div class="menu-item"><div class="item-name">Quinoa Puliogre</div><div class="item-description">Tangy tamarind quinoa.</div></div>
-                <div class="menu-item"><div class="item-name">Quinoa Chitranna</div><div class="item-description">Lemon-flavored quinoa.</div></div>
+                <div class="menu-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Desserts</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Shavige Paysa</div>
+                        <div class="item-description">Vermicelli pudding.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Annada Paysa</div>
+                        <div class="item-description">Rice pudding.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Sabbakki Paysa</div>
+                        <div class="item-description">Tapioca dessert.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Hesaru Bele Paysa</div>
+                        <div class="item-description">Moong dal sweet.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Hayagreeva</div>
+                        <div class="item-description">Gram dal pudding.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Gulab Jamun</div>
+                        <div class="item-description">Milk dumplings.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Mango Rabdi</div>
+                        <div class="item-description">Rich milk dessert.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Fruit Custard</div>
+                        <div class="item-description">Creamy custard with fruits.</div>
+                    </div>
+                </div>
             </div>
 
 
-            <div class="bottom-column">
-                <div class="section-header"><h2 class="section-title">Salads</h2></div>
-                <div class="menu-item"><div class="item-name">Kosambari</div><div class="item-description">Moong dal cucumber salad.</div></div>
-                <div class="menu-item"><div class="item-name">Corn Kosambari</div><div class="item-description">Sweet corn salad.</div></div>
-                <div class="menu-item"><div class="item-name">Sprouted Green Gram Kosambari</div><div class="item-description">Nutritious sprout salad.</div></div>
-                <div class="menu-item"><div class="item-name">Veggie Salad</div><div class="item-description">Mixed vegetables.</div></div>
-                <div class="menu-item"><div class="item-name">Fruit Salad</div><div class="item-description">Seasonal fresh fruits.</div></div>
-                <div class="menu-item"><div class="item-name">Grape Salad</div><div class="item-description">Grapes with cream and nuts.</div></div>
+            <!-- Bottom Row -->
+            <div class="bottom-row">
+                <div class="bottom-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Bulk Orders</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Chicken Biryani</div>
+                        <div class="item-description">Bangalore Meghana Style.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Paneer Biryani</div>
+                        <div class="item-description">Biryani with paneer.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Dosa</div>
+                        <div class="item-description">Crispy fermented crepes.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Idli Sambar</div>
+                        <div class="item-description">Soft idlis with sambar.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Puri</div>
+                        <div class="item-description">Deep-fried puris.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Set Dosa</div>
+                        <div class="item-description">Thick dosas - set of two.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Veg Kurma</div>
+                        <div class="item-description">Vegetables in coconut gravy.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Bele Holige</div>
+                        <div class="item-description">Sweet lentil flatbread.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Kai Holige</div>
+                        <div class="item-description">Jaggery coconut flatbread.</div>
+                    </div>
+                </div>
+
+
+                <div class="bottom-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Diabetes Friendly</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Quinoa Pulav</div>
+                        <div class="item-description">Nutritious quinoa with vegetables.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Quinoa Pongal</div>
+                        <div class="item-description">Healthy quinoa and lentil dish.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Quinoa Bisibele Bath</div>
+                        <div class="item-description">Quinoa-lentil mix with veggies.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Quinoa Puliogre</div>
+                        <div class="item-description">Tangy tamarind quinoa.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Quinoa Chitranna</div>
+                        <div class="item-description">Lemon-flavored quinoa.</div>
+                    </div>
+                </div>
+
+
+                <div class="bottom-column">
+                    <div class="section-header">
+                        <h2 class="section-title">Salads</h2>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Kosambari</div>
+                        <div class="item-description">Moong dal cucumber salad.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Corn Kosambari</div>
+                        <div class="item-description">Sweet corn salad.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Sprouted Green Gram Kosambari</div>
+                        <div class="item-description">Nutritious sprout salad.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Veggie Salad</div>
+                        <div class="item-description">Mixed vegetables.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Fruit Salad</div>
+                        <div class="item-description">Seasonal fresh fruits.</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-name">Grape Salad</div>
+                        <div class="item-description">Grapes with cream and nuts.</div>
+                    </div>
+                </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -851,14 +1230,9 @@
         <div class="contact-grid">
             <div class="contact-card">
                 <a href="tel:(313) 699-6045" target="_blank">
-                    <h3><img src="https://img.icons8.com/?size=100&id=WV326xpsBMyb&format=png&color=000000"> <br>Phone</h3>
+                    <h3><img src="https://img.icons8.com/?size=100&id=WV326xpsBMyb&format=png&color=000000"> <br>Phone
+                    </h3>
                     (313) 699-6045
-                </a>
-            </div>
-            <div class="contact-card">
-                <a href="mailto:malgudispice@gmail.com" target="_blank">
-                    <h3><img src="https://img.icons8.com/?size=100&id=LPcVDft9Isqt&format=png&color=000000"> <br>Email</h3>
-                    malgudispice@gmail.com
                 </a>
             </div>
             <div class="contact-card">
@@ -871,6 +1245,13 @@
                 <a href="https://www.instagram.com/malgudispice" target="_blank">
                     <h3><img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"> Instagram</h3>
                     @malgudispice
+                </a>
+            </div>
+            <div class="contact-card">
+                <a href="mailto:malgudispice@gmail.com" target="_blank">
+                    <h3><img src="https://img.icons8.com/?size=100&id=LPcVDft9Isqt&format=png&color=000000"> <br>Email
+                    </h3>
+                    malgudispice@gmail.com
                 </a>
             </div>
         </div>
@@ -889,7 +1270,8 @@
             <img id="modal-img" class="modal-img" src="" alt="">
             <h2 id="modal-title" style="color: #6B2C2C; margin-bottom: 15px;"></h2>
             <p id="modal-desc" style="color: #666; line-height: 1.6; margin-bottom: 15px;"></p>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px; padding-top: 20px; border-top: 2px solid #f0f0f0;">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px; padding-top: 20px; border-top: 2px solid #f0f0f0;">
                 <span id="modal-quantity" style="color: #888; font-size: 16px;"></span>
                 <span id="modal-price" style="color: #D4AF37; font-size: 28px; font-weight: bold;"></span>
             </div>
@@ -912,10 +1294,10 @@
         function showTab(tabName) {
             const tabs = document.querySelectorAll('.tab-content');
             const btns = document.querySelectorAll('.tab-btn');
-            
+
             tabs.forEach(tab => tab.classList.remove('active'));
             btns.forEach(btn => btn.classList.remove('active'));
-            
+
             document.getElementById(tabName).classList.add('active');
             event.target.classList.add('active');
         }
@@ -936,4 +1318,5 @@
         }
     </script>
 </body>
+
 </html>
